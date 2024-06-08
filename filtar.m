@@ -1,5 +1,5 @@
-%close all; clear all;clc;
-[x,fs]=audioread('5_hirurska.wav'); %trebalo mi je fs
+close all; clear all;clc;
+[x,fs]=audioread('Signali/5_hirurska.wav'); %trebalo mi je fs
 fosa=load('fosa');
 a=load('slabljenje');
 fosa=fosa.f_oktavno;
